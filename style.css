@@ -1,0 +1,55 @@
+.card-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    width: 325px;
+    min-height: 500px;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+    margin: 4px;
+    background-color: black;
+    border: 4px solid white
+}
+.picture {
+    width: 317px;
+    height: 300px;
+}
+.picture-section {
+    height: 300px;
+    position: relative;
+}
+.elixircost {
+    position: absolute;
+    bottom: 1;
+    right: 1;
+    padding: 4px 8px;
+    margin: 10px;
+}
+.info {
+    padding: 8px;
+    color: #2D3748;
+}
+.listing {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 4px;
+}
+.cardname {
+    font-size: 24px;
+    font-weight: bold;
+}
+.address {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.type {
+    font-size: 12px;
+}
+.a {
+    text-decoration: none;
+    text-decoration-color: white;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
