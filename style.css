@@ -9,6 +9,7 @@
     margin: 4px;
     background-color: #34425A;
     border: 4px solid deepskyblue;
+    border-radius: 8px;
 }
 .picture {
     width: 317px;
